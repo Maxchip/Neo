@@ -1,0 +1,258 @@
+.dxm-hovered .dxXtraReports_BtnFirstPage_Moderno1,
+.dxm-hovered .dxXtraReports_BtnLastPage_Moderno1,
+.dxm-hovered .dxXtraReports_BtnNextPage_Moderno1,
+.dxm-hovered .dxXtraReports_BtnPrevPage_Moderno1,
+.dxm-hovered .dxXtraReports_BtnPrint_Moderno1,
+.dxm-hovered .dxXtraReports_BtnPrintPage_Moderno1,
+.dxm-hovered .dxXtraReports_BtnSave_Moderno1,
+.dxm-hovered .dxXtraReports_BtnSaveWindow_Moderno1,
+.dxm-hovered .dxXtraReports_BtnSearch_Moderno1,
+.dxXtraReports_BtnFirstPage_Moderno1,
+.dxXtraReports_BtnFirstPageDisabled_Moderno1,
+.dxXtraReports_BtnLastPage_Moderno1,
+.dxXtraReports_BtnLastPageDisabled_Moderno1,
+.dxXtraReports_BtnNextPage_Moderno1,
+.dxXtraReports_BtnNextPageDisabled_Moderno1,
+.dxXtraReports_BtnPrevPage_Moderno1,
+.dxXtraReports_BtnPrevPageDisabled_Moderno1,
+.dxXtraReports_BtnPrint_Moderno1,
+.dxXtraReports_BtnPrintDisabled_Moderno1,
+.dxXtraReports_BtnPrintPage_Moderno1,
+.dxXtraReports_BtnPrintPageDisabled_Moderno1,
+.dxXtraReports_BtnSave_Moderno1,
+.dxXtraReports_BtnSaveDisabled_Moderno1,
+.dxXtraReports_BtnSaveWindow_Moderno1,
+.dxXtraReports_BtnSaveWindowDisabled_Moderno1,
+.dxXtraReports_BtnSearch_Moderno1,
+.dxXtraReports_BtnSearchDisabled_Moderno1,
+.dxXtraReports_PageBorder_blc_Moderno1,
+.dxXtraReports_PageBorder_brc_Moderno1,
+.dxXtraReports_PageBorder_tlc_Moderno1,
+.dxXtraReports_PageBorder_trc_Moderno1
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxm-hovered .dxXtraReports_BtnFirstPage_Moderno1
+{
+    background-position: 0px -272px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxXtraReports_BtnLastPage_Moderno1
+{
+    background-position: 0px -68px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxXtraReports_BtnNextPage_Moderno1
+{
+    background-position: 0px -357px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxXtraReports_BtnPrevPage_Moderno1
+{
+    background-position: 0px -51px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxXtraReports_BtnPrint_Moderno1
+{
+    background-position: 0px -187px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxXtraReports_BtnPrintPage_Moderno1
+{
+    background-position: 0px -102px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxXtraReports_BtnSave_Moderno1
+{
+    background-position: 0px -221px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxXtraReports_BtnSaveWindow_Moderno1
+{
+    background-position: 0px -391px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxXtraReports_BtnSearch_Moderno1
+{
+    background-position: 0px -374px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnFirstPage_Moderno1
+{
+    background-position: 0px -289px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnFirstPageDisabled_Moderno1
+{
+    background-position: 0px -119px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnLastPage_Moderno1
+{
+    background-position: 0px -323px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnLastPageDisabled_Moderno1
+{
+    background-position: 0px -306px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnNextPage_Moderno1
+{
+    background-position: 0px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnNextPageDisabled_Moderno1
+{
+    background-position: 0px -136px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrevPage_Moderno1
+{
+    background-position: 0px -255px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrevPageDisabled_Moderno1
+{
+    background-position: 0px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrint_Moderno1
+{
+    background-position: 0px -85px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintDisabled_Moderno1
+{
+    background-position: 0px -204px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintPage_Moderno1
+{
+    background-position: 0px -425px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintPageDisabled_Moderno1
+{
+    background-position: 0px -442px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSave_Moderno1
+{
+    background-position: 0px -238px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveDisabled_Moderno1
+{
+    background-position: 0px -170px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveWindow_Moderno1
+{
+    background-position: 0px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveWindowDisabled_Moderno1
+{
+    background-position: 0px -340px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSearch_Moderno1
+{
+    background-position: 0px -153px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSearchDisabled_Moderno1
+{
+    background-position: 0px -408px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_PageBorder_blc_Moderno1
+{
+    background-position: 0px -481px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_brc_Moderno1
+{
+    background-position: 0px -470px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_tlc_Moderno1
+{
+    background-position: 0px -492px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_trc_Moderno1
+{
+    background-position: 0px -459px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_t_Moderno1,
+.dxXtraReports_PageBorder_l_Moderno1,
+.dxXtraReports_PageBorder_r_Moderno1,
+.dxXtraReports_PageBorder_b_Moderno1 {
+    padding: 0px;
+    background-color: transparent;
+}
+
+.dxXtraReports_PageBorder_t_Moderno1 {
+    background-image: url('pageTopBorder.png');
+    background-repeat: repeat-x;
+    width: 1px;
+    height: 10px;
+}
+
+.dxXtraReports_PageBorder_l_Moderno1 {
+    background-image: url('pageLeftBorder.png');
+    background-repeat: repeat-y;
+    width: 10px;
+    height: 1px;
+}
+
+.dxXtraReports_PageBorder_r_Moderno1 {
+    background-image: url('pageRightBorder.png');
+    background-repeat: repeat-y;
+    width: 10px;
+    height: 1px;
+}
+
+.dxXtraReports_PageBorder_b_Moderno1 {
+    background-image: url('pageBottomBorder.png');
+    background-repeat: repeat-x;
+    width: 1px;
+    height: 10px;
+}
+

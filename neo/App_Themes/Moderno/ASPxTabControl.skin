@@ -1,0 +1,8 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v16.1, Version=16.1.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v16.1, Version=16.1.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %> 
+
+<dx:ASPxTabControl runat="server" CssFilePath="{0}/styles.css"
+    SpriteCssFilePath="{0}/sprite.css" CssPostfix="Moderno1" TabSpacing="3px">
+</dx:ASPxTabControl>
+
+

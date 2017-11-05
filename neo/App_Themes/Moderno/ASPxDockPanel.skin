@@ -1,0 +1,10 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v16.1, Version=16.1.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v16.1, Version=16.1.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+
+<dx:ASPxDockPanel runat="server">
+    <Images SpriteCssFilePath="{0}/sprite.css">
+    </Images>
+    <Styles CssPostfix="Moderno1" CssFilePath="{0}/styles.css">
+    </Styles>
+</dx:ASPxDockPanel>
+

@@ -1,0 +1,9 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v16.1, Version=16.1.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v16.1, Version=16.1.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+
+<dx:ASPxHeadline runat="server" MaxLength="300" TailPosition="KeepWithLastWord" CssPostfix="Moderno1" CssFilePath="{0}/styles.css">
+    <DateStyle Spacing="5px"></DateStyle>
+    <LeftPanelStyle Spacing="32px"></LeftPanelStyle>
+    <RightPanelStyle Spacing="32px"></RightPanelStyle>
+</dx:ASPxHeadline>
+

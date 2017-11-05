@@ -1,0 +1,9 @@
+C:\Users\Cezar\source\repos\neo\neo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Cezar\source\repos\neo\neo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Cezar\source\repos\neo\neo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Cezar\source\repos\neo\neo\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Cezar\source\repos\neo\neo\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Cezar\source\repos\neo\neo\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Cezar\source\repos\neo\neo\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Cezar\source\repos\neo\neo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Cezar\source\repos\neo\neo\bin\roslyn\VBCSCompiler.exe

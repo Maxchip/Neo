@@ -1,0 +1,19 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v16.1, Version=16.1.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v16.1, Version=16.1.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+
+<dx:ASPxTitleIndex runat="server" IndexPanelSpacing="0px" FilterBoxSpacing="20px" GroupSpacing="30px" 
+    SpriteCssFilePath="{0}/sprite.css" CssPostfix="Moderno1" CssFilePath="{0}/styles.css">
+    <FilterBox InfoText=""></FilterBox>
+
+    <IndexPanelSeparatorStyle Height="0px"></IndexPanelSeparatorStyle>
+    <GroupContentStyle>
+        <Paddings Padding="0px"></Paddings>
+    </GroupContentStyle>
+    <ColumnStyle>
+        <Paddings PaddingLeft="0px"></Paddings>
+    </ColumnStyle>
+    <ItemStyle>
+        <CurrentItemStyle Font-Bold="False" Font-Underline="False"></CurrentItemStyle>
+    </ItemStyle>
+</dx:ASPxTitleIndex>
+

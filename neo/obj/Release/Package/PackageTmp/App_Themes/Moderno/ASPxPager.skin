@@ -1,0 +1,13 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v16.1, Version=16.1.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v16.1, Version=16.1.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+
+<dx:ASPxPager runat="server" CssFilePath="{0}/styles.css" CssPostfix="Moderno1" 
+    SpriteCssFilePath="{0}/sprite.css" CurrentPageNumberFormat="{0}" ShowNumericButtons="True">
+    <Summary Visible="False" />
+    <NextPageButton Visible="True"></NextPageButton>
+    <PrevPageButton Visible="True"></PrevPageButton>
+    <FirstPageButton Visible="True"></FirstPageButton>
+    <LastPageButton Visible="True"></LastPageButton>
+</dx:ASPxPager>
+
+

@@ -1,0 +1,720 @@
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnDocumentMap_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnDocumentMapLarge_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnFirstPage_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnFirstPageLarge_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnLastPage_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnLastPageLarge_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnNextPage_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnNextPageLarge_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnParameters_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnParametersLarge_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnPrevPage_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnPrevPageLarge_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnPrint_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnPrintLarge_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnPrintPage_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnPrintPageLarge_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnSave_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnSaveLarge_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnSaveWindow_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnSaveWindowLarge_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnSearch_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnSearchLarge_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToCsv_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToCsvLarge_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToHtml_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToHtmlLarge_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToImg_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToImgLarge_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToMht_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToMhtLarge_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToPdf_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToPdfLarge_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToRtf_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToRtfLarge_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToTxt_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToTxtLarge_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToXls_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToXlsLarge_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToXlsx_Moderno1,
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToXlsxLarge_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnDocumentMap_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnDocumentMapDisabled_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnDocumentMapLarge_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnDocumentMapLargeDisabled_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnFirstPage_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnFirstPageDisabled_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnFirstPageLarge_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnFirstPageLargeDisabled_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnLastPage_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnLastPageDisabled_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnLastPageLarge_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnLastPageLargeDisabled_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnNextPage_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnNextPageDisabled_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnNextPageLarge_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnNextPageLargeDisabled_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnParameters_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnParametersDisabled_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnParametersLarge_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnParametersLargeDisabled_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnPrevPage_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnPrevPageDisabled_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnPrevPageLarge_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnPrevPageLargeDisabled_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnPrint_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnPrintDisabled_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnPrintLarge_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnPrintLargeDisabled_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnPrintPage_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnPrintPageDisabled_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnPrintPageLarge_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnPrintPageLargeDisabled_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnSave_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnSaveDisabled_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnSaveLarge_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnSaveLargeDisabled_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnSaveWindow_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnSaveWindowDisabled_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnSaveWindowLarge_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnSaveWindowLargeDisabled_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnSearch_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnSearchDisabled_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnSearchLarge_Moderno1,
+.dxWeb_xrdvRibbonIcon_BtnSearchLargeDisabled_Moderno1,
+.dxWeb_xrdvRibbonIcon_ExportToCsv_Moderno1,
+.dxWeb_xrdvRibbonIcon_ExportToCsvLarge_Moderno1,
+.dxWeb_xrdvRibbonIcon_ExportToHtml_Moderno1,
+.dxWeb_xrdvRibbonIcon_ExportToHtmlLarge_Moderno1,
+.dxWeb_xrdvRibbonIcon_ExportToImg_Moderno1,
+.dxWeb_xrdvRibbonIcon_ExportToImgLarge_Moderno1,
+.dxWeb_xrdvRibbonIcon_ExportToMht_Moderno1,
+.dxWeb_xrdvRibbonIcon_ExportToMhtLarge_Moderno1,
+.dxWeb_xrdvRibbonIcon_ExportToPdf_Moderno1,
+.dxWeb_xrdvRibbonIcon_ExportToPdfLarge_Moderno1,
+.dxWeb_xrdvRibbonIcon_ExportToRtf_Moderno1,
+.dxWeb_xrdvRibbonIcon_ExportToRtfLarge_Moderno1,
+.dxWeb_xrdvRibbonIcon_ExportToTxt_Moderno1,
+.dxWeb_xrdvRibbonIcon_ExportToTxtLarge_Moderno1,
+.dxWeb_xrdvRibbonIcon_ExportToXls_Moderno1,
+.dxWeb_xrdvRibbonIcon_ExportToXlsLarge_Moderno1,
+.dxWeb_xrdvRibbonIcon_ExportToXlsx_Moderno1,
+.dxWeb_xrdvRibbonIcon_ExportToXlsxLarge_Moderno1
+{
+    background-image: url('DocumentViewerSprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnDocumentMap_Moderno1
+{
+    background-position: -595px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnDocumentMapLarge_Moderno1
+{
+    background-position: -495px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnFirstPage_Moderno1
+{
+    background-position: -629px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnFirstPageLarge_Moderno1
+{
+    background-position: -231px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnLastPage_Moderno1
+{
+    background-position: -17px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnLastPageLarge_Moderno1
+{
+    background-position: -99px -33px;
+    width: 32px;
+    height: 32px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnNextPage_Moderno1
+{
+    background-position: -799px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnNextPageLarge_Moderno1
+{
+    background-position: -132px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnParameters_Moderno1
+{
+    background-position: -782px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnParametersLarge_Moderno1
+{
+    background-position: -462px -33px;
+    width: 32px;
+    height: 32px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnPrevPage_Moderno1
+{
+    background-position: -170px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnPrevPageLarge_Moderno1
+{
+    background-position: -759px -33px;
+    width: 32px;
+    height: 32px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnPrint_Moderno1
+{
+    background-position: -187px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnPrintLarge_Moderno1
+{
+    background-position: -528px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnPrintPage_Moderno1
+{
+    background-position: -459px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnPrintPageLarge_Moderno1
+{
+    background-position: -165px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnSave_Moderno1
+{
+    background-position: -425px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnSaveLarge_Moderno1
+{
+    background-position: -693px -33px;
+    width: 32px;
+    height: 32px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnSaveWindow_Moderno1
+{
+    background-position: -34px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnSaveWindowLarge_Moderno1
+{
+    background-position: -165px -33px;
+    width: 32px;
+    height: 32px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnSearch_Moderno1
+{
+    background-position: -765px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_BtnSearchLarge_Moderno1
+{
+    background-position: -396px -33px;
+    width: 32px;
+    height: 32px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToCsv_Moderno1
+{
+    background-position: -255px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToCsvLarge_Moderno1
+{
+    background-position: -99px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToHtml_Moderno1
+{
+    background-position: -374px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToHtmlLarge_Moderno1
+{
+    background-position: -330px -33px;
+    width: 32px;
+    height: 32px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToImg_Moderno1
+{
+    background-position: -476px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToImgLarge_Moderno1
+{
+    background-position: -396px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToMht_Moderno1
+{
+    background-position: -697px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToMhtLarge_Moderno1
+{
+    background-position: -231px -33px;
+    width: 32px;
+    height: 32px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToPdf_Moderno1
+{
+    background-position: -748px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToPdfLarge_Moderno1
+{
+    background-position: -363px -33px;
+    width: 32px;
+    height: 32px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToRtf_Moderno1
+{
+    background-position: -204px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToRtfLarge_Moderno1
+{
+    background-position: -264px -33px;
+    width: 32px;
+    height: 32px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToTxt_Moderno1
+{
+    background-position: -510px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToTxtLarge_Moderno1
+{
+    background-position: -594px -33px;
+    width: 32px;
+    height: 32px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToXls_Moderno1
+{
+    background-position: -238px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToXlsLarge_Moderno1
+{
+    background-position: -33px -33px;
+    width: 32px;
+    height: 32px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToXlsx_Moderno1
+{
+    background-position: -119px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxr-itemHover .dxWeb_xrdvRibbonIcon_ExportToXlsxLarge_Moderno1
+{
+    background-position: -726px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_BtnDocumentMap_Moderno1
+{
+    background-position: -68px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_BtnDocumentMapDisabled_Moderno1
+{
+    background-position: -323px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_BtnDocumentMapLarge_Moderno1
+{
+    background-position: 0px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_BtnDocumentMapLargeDisabled_Moderno1
+{
+    background-position: -825px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_BtnFirstPage_Moderno1
+{
+    background-position: 0px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_BtnFirstPageDisabled_Moderno1
+{
+    background-position: -527px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_BtnFirstPageLarge_Moderno1
+{
+    background-position: -297px -33px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_BtnFirstPageLargeDisabled_Moderno1
+{
+    background-position: -792px -33px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_BtnLastPage_Moderno1
+{
+    background-position: -646px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_BtnLastPageDisabled_Moderno1
+{
+    background-position: -102px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_BtnLastPageLarge_Moderno1
+{
+    background-position: -462px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_BtnLastPageLargeDisabled_Moderno1
+{
+    background-position: -363px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_BtnNextPage_Moderno1
+{
+    background-position: -136px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_BtnNextPageDisabled_Moderno1
+{
+    background-position: -612px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_BtnNextPageLarge_Moderno1
+{
+    background-position: -429px -33px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_BtnNextPageLargeDisabled_Moderno1
+{
+    background-position: -33px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_BtnParameters_Moderno1
+{
+    background-position: -825px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_BtnParametersDisabled_Moderno1
+{
+    background-position: -578px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_BtnParametersLarge_Moderno1
+{
+    background-position: -495px -33px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_BtnParametersLargeDisabled_Moderno1
+{
+    background-position: -561px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_BtnPrevPage_Moderno1
+{
+    background-position: -391px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_BtnPrevPageDisabled_Moderno1
+{
+    background-position: -221px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_BtnPrevPageLarge_Moderno1
+{
+    background-position: -132px -33px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_BtnPrevPageLargeDisabled_Moderno1
+{
+    background-position: -429px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_BtnPrint_Moderno1
+{
+    background-position: -153px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_BtnPrintDisabled_Moderno1
+{
+    background-position: -340px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_BtnPrintLarge_Moderno1
+{
+    background-position: -627px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_BtnPrintLargeDisabled_Moderno1
+{
+    background-position: -66px -33px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_BtnPrintPage_Moderno1
+{
+    background-position: -493px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_BtnPrintPageDisabled_Moderno1
+{
+    background-position: -85px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_BtnPrintPageLarge_Moderno1
+{
+    background-position: -726px -33px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_BtnPrintPageLargeDisabled_Moderno1
+{
+    background-position: -198px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_BtnSave_Moderno1
+{
+    background-position: -51px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_BtnSaveDisabled_Moderno1
+{
+    background-position: -731px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_BtnSaveLarge_Moderno1
+{
+    background-position: -198px -33px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_BtnSaveLargeDisabled_Moderno1
+{
+    background-position: -660px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_BtnSaveWindow_Moderno1
+{
+    background-position: -561px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_BtnSaveWindowDisabled_Moderno1
+{
+    background-position: -306px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_BtnSaveWindowLarge_Moderno1
+{
+    background-position: -264px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_BtnSaveWindowLargeDisabled_Moderno1
+{
+    background-position: -297px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_BtnSearch_Moderno1
+{
+    background-position: -408px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_BtnSearchDisabled_Moderno1
+{
+    background-position: -357px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_BtnSearchLarge_Moderno1
+{
+    background-position: -792px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_BtnSearchLargeDisabled_Moderno1
+{
+    background-position: -528px -33px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_ExportToCsv_Moderno1
+{
+    background-position: -842px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_ExportToCsvLarge_Moderno1
+{
+    background-position: -66px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_ExportToHtml_Moderno1
+{
+    background-position: -442px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_ExportToHtmlLarge_Moderno1
+{
+    background-position: -594px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_ExportToImg_Moderno1
+{
+    background-position: -663px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_ExportToImgLarge_Moderno1
+{
+    background-position: -660px -33px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_ExportToMht_Moderno1
+{
+    background-position: -544px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_ExportToMhtLarge_Moderno1
+{
+    background-position: 0px -33px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_ExportToPdf_Moderno1
+{
+    background-position: -714px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_ExportToPdfLarge_Moderno1
+{
+    background-position: -693px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_ExportToRtf_Moderno1
+{
+    background-position: -680px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_ExportToRtfLarge_Moderno1
+{
+    background-position: -627px -33px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_ExportToTxt_Moderno1
+{
+    background-position: -272px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_ExportToTxtLarge_Moderno1
+{
+    background-position: -561px -33px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_ExportToXls_Moderno1
+{
+    background-position: -816px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_ExportToXlsLarge_Moderno1
+{
+    background-position: -330px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_xrdvRibbonIcon_ExportToXlsx_Moderno1
+{
+    background-position: -289px -66px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_xrdvRibbonIcon_ExportToXlsxLarge_Moderno1
+{
+    background-position: -759px 0px;
+    width: 32px;
+    height: 32px;
+}
+

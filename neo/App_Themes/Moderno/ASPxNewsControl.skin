@@ -1,0 +1,18 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v16.1, Version=16.1.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v16.1, Version=16.1.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+
+<dx:ASPxNewsControl runat="server" PagerAlign="Center" PagerPanelSpacing="0px" SpriteCssFilePath="{0}/sprite.css" CssPostfix="Moderno1" CssFilePath="{0}/styles.css">
+    <PagerSettings ShowDefaultImages="True" CurrentPageNumberFormat="{0}">
+        <AllButton Text="" Visible="True"></AllButton>
+        <FirstPageButton Text="" Visible="True"></FirstPageButton>
+        <LastPageButton Text="" Visible="True"></LastPageButton>
+        <NextPageButton Text="" Visible="True"></NextPageButton>
+        <PrevPageButton Text="" Visible="True"></PrevPageButton>
+        <Summary Visible="False"></Summary>
+    </PagerSettings>
+
+    <ItemDateStyle Spacing="5px"></ItemDateStyle>
+    <ItemLeftPanelStyle Spacing="32px"></ItemLeftPanelStyle>
+    <ItemRightPanelStyle Spacing="32px"></ItemRightPanelStyle>
+</dx:ASPxNewsControl>
+
