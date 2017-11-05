@@ -1,6 +1,7 @@
 WebFoms Application
 - Asp Net C#
 - DevExpress Framework
+- DevExpress Reporting
 - jQuery
 - BootStrap
 - JavaScript
