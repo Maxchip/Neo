@@ -31,6 +31,42 @@ namespace neo {
         protected global::DevExpress.Web.ASPxButton btnNovoRegistro;
         
         /// <summary>
+        /// ASPxButton4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxButton ASPxButton4;
+        
+        /// <summary>
+        /// ASPxButton6 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxButton ASPxButton6;
+        
+        /// <summary>
+        /// ASPxButton3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxButton ASPxButton3;
+        
+        /// <summary>
+        /// ASPxButton7 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxButton ASPxButton7;
+        
+        /// <summary>
         /// FiltrodataInicio control.
         /// </summary>
         /// <remarks>

@@ -145,6 +145,7 @@
     <Content Include="App_Themes\Moderno\ReportParametersPanel.skin" />
     <Content Include="App_Themes\Moderno\ReportToolbar.skin" />
     <Content Include="App_Themes\Moderno\ReportViewer.skin" />
+    <Content Include="Company.aspx" />
     <Content Include="css\bootstrap.css.map" />
     <Content Include="Default.aspx" />
     <Content Include="EditFormDoc.aspx" />
@@ -154,6 +155,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="HandlerDoc.ashx" />
     <None Include="packages.config" />
+    <Content Include="img\favicon.ico" />
     <Content Include="img\logo.png" />
     <Content Include="img\maxlogo.png" />
     <Content Include="PrintView.aspx" />
@@ -842,6 +844,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Company.aspx.cs">
+      <DependentUpon>Company.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Company.aspx.designer.cs">
+      <DependentUpon>Company.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

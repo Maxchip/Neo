@@ -8,7 +8,7 @@
 
     function OnCustomButtonDoc(s, e) {
         if (e.buttonID == "btnEditDoc") {
-            grvDoc.GetRowValues(grvDoc.GetFocusedRowIndex(), 'IdDoc', function (value) { grvDoc.PerformCallback('EditDoc:' + value); });           
+            grvDoc.GetRowValues(grvDoc.GetFocusedRowIndex(), 'IdDoc', function (value) { grvDoc.PerformCallback('EditDoc:' + value); });
         }
         if (e.buttonID == "btnPrintDoc") {
             grvDoc.GetRowValues(grvDoc.GetFocusedRowIndex(), 'IdDoc;IdTipoDoc', OnPrintDoc);
@@ -27,7 +27,7 @@
     function OnNewDoc(s, e) {
         popupVisualizar.SetContentUrl('EditFormDoc.aspx?IdDoc=0');
         popupVisualizar.Show();
-    }    
+    }
 
     function OnViewDoc(IdDoc) {
         popupVisualizar.SetContentUrl('ViewFormDoc.aspx?IdDoc=' + IdDoc);
@@ -72,17 +72,32 @@
             popupMSG.Show();
             lblMSG.SetText(s.cpMSG);
         }
-        else if (s.cpOpe == 'yesEdit') {    
+        else if (s.cpOpe == 'yesEdit') {
             s.cpOpe = 'null';
             popupVisualizar.SetContentUrl('EditFormDoc.aspx?IdDoc=' + s.cpIdDoc);
             popupVisualizar.Show();
         }
     }
 
+    function OnCompany() {
+        popupVisualizar.SetContentUrl('Company.aspx');
+        popupVisualizar.Show();
+    }
+
 </script>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Maxchip Web Development" />
+    <meta name="author" content="Maxchip" />
+
+    <!-- Title -->
+    <title>Maxchip Web Development</title>
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="shortcut icon" />
     <link href="css/bootstrap.css" rel="stylesheet" />
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
@@ -91,7 +106,7 @@
             background-image: url('../img/bg.jpg');
         }
     </style>
-    <title>neo</title>
+
 </head>
 <body>
     <form id="form1" runat="server">
@@ -115,14 +130,38 @@
                         </a>
 
                         <dx:ASPxButton ID="btnNovoRegistro" runat="server" EnableTheming="false" CssClass="btn btn-success"
-                            Text="Novo Registro" UseSubmitBehavior="false" AutoPostBack="false" Width="120px">
+                            Text="New Doc" UseSubmitBehavior="false" AutoPostBack="false" Width="120px">
                             <Image Url="icon/glyphicons-37-file.png" Height="20px" Width="15px"></Image>
                             <ClientSideEvents Click="function(s, e) { OnNewDoc(s, e); }" />
                         </dx:ASPxButton>
 
                         <a class="btn">
-                            <h4>Modelo de Documento</h4>
+                            <h4>Document Management</h4>
                         </a>
+
+                        <dx:ASPxButton ID="ASPxButton4" runat="server" EnableTheming="false" CssClass="btn btn-info"
+                            Text="Company" UseSubmitBehavior="false" AutoPostBack="false" Width="120px">
+                            <Image Url="icon/glyphicons-120-table.png" Height="20px" Width="15px"></Image>
+                            <ClientSideEvents Click="function(s, e) { OnCompany(s, e); }" />
+                        </dx:ASPxButton>
+
+                        <dx:ASPxButton ID="ASPxButton6" runat="server" EnableTheming="false" CssClass="btn btn-info disabled"
+                            Text="Contact" UseSubmitBehavior="false" AutoPostBack="false" Width="120px">
+                            <Image Url="icon/glyphicons-120-table.png" Height="20px" Width="15px"></Image>
+                            <ClientSideEvents Click="function(s, e) { OnContact(s, e); }" />
+                        </dx:ASPxButton>
+
+                        <dx:ASPxButton ID="ASPxButton3" runat="server" EnableTheming="false" CssClass="btn btn-info disabled"
+                            Text="Item" UseSubmitBehavior="false" AutoPostBack="false" Width="120px">
+                            <Image Url="icon/glyphicons-120-table.png" Height="20px" Width="15px"></Image>
+                            <ClientSideEvents Click="function(s, e) { OnItem(s, e); }" />
+                        </dx:ASPxButton>
+
+                        <dx:ASPxButton ID="ASPxButton7" runat="server" EnableTheming="false" CssClass="btn btn-info disabled"
+                            Text="User" UseSubmitBehavior="false" AutoPostBack="false" Width="120px">
+                            <Image Url="icon/glyphicons-120-table.png" Height="20px" Width="15px"></Image>
+                            <ClientSideEvents Click="function(s, e) { OnUser(s, e); }" />
+                        </dx:ASPxButton>
 
                     </div>
                 </div>
@@ -137,14 +176,14 @@
                         <div class="row">
                             <div class="col-sm-12 col-md-12 col-lg-12">
                                 <div class="col-sm-2 col-md-2 col-lg-2">
-                                    <dx:ASPxDateEdit ID="FiltrodataInicio" runat="server" DisplayFormatString="dd/MM/yyyy" EditFormatString="dd/MM/yyyy" ClientInstanceName="FiltrodataInicio" Width="100%" HorizontalAlign="Left" Caption="Cad. Inicio">
+                                    <dx:ASPxDateEdit ID="FiltrodataInicio" runat="server" DisplayFormatString="dd/MM/yyyy" EditFormatString="dd/MM/yyyy" ClientInstanceName="FiltrodataInicio" Width="100%" HorizontalAlign="Left" Caption="Start Date">
                                         <CaptionSettings Position="Top" ShowColon="false" />
                                         <ClientSideEvents ValueChanged="function(s, e){ if (((s.GetValue() != null) && (FiltrodataFim.GetValue() != null)) || ((s.GetValue() == null) && (FiltrodataFim.GetValue() == null))) { grvDoc.PerformCallback('ConsultaDoc'); } }" />
                                         <ClearButton Visibility="True" Position="Left" DisplayMode="Always"></ClearButton>
                                     </dx:ASPxDateEdit>
                                 </div>
                                 <div class="col-sm-2 col-md-2 col-lg-2">
-                                    <dx:ASPxDateEdit ID="FiltrodataFim" runat="server" DisplayFormatString="dd/MM/yyyy" EditFormatString="dd/MM/yyyy" ClientInstanceName="FiltrodataFim" Width="100%" Caption="Cad. Fim">
+                                    <dx:ASPxDateEdit ID="FiltrodataFim" runat="server" DisplayFormatString="dd/MM/yyyy" EditFormatString="dd/MM/yyyy" ClientInstanceName="FiltrodataFim" Width="100%" Caption="End Date">
                                         <CaptionSettings Position="Top" ShowColon="false" />
                                         <DateRangeSettings StartDateEditID="FiltrodataInicio"></DateRangeSettings>
                                         <ClientSideEvents ValueChanged="function(s, e){ if (((s.GetValue() != null) && (FiltrodataInicio.GetValue() != null)) || ((s.GetValue() == null) && (FiltrodataInicio.GetValue() == null))) { grvDoc.PerformCallback('ConsultaDoc'); } }" />
@@ -154,7 +193,7 @@
                                 <div class="col-sm-2 col-md-2 col-lg-2">
                                     <div class="input-group">
 
-                                        <dx:ASPxTextBox ID="FiltroNumeroDoc" runat="server" ClientInstanceName="FiltroNumeroDoc" Width="100%" Caption="Nº Documento">
+                                        <dx:ASPxTextBox ID="FiltroNumeroDoc" runat="server" ClientInstanceName="FiltroNumeroDoc" Width="100%" Caption="Document Nº">
                                             <CaptionSettings Position="Top" ShowColon="false" />
                                             <ClientSideEvents ValueChanged="function(s, e){ grvDoc.PerformCallback('ConsultaDoc'); }" />
                                         </dx:ASPxTextBox>
@@ -168,7 +207,7 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-2 col-md-2 col-lg-2">
-                                    <dx:ASPxComboBox ID="FiltrocboEmpresa" runat="server" ClientInstanceName="FiltrocboEmpresa" Width="100%" Caption="Empresa"
+                                    <dx:ASPxComboBox ID="FiltrocboEmpresa" runat="server" ClientInstanceName="FiltrocboEmpresa" Width="100%" Caption="Company"
                                         DataSourceID="sdsEmpresa" ValueField="IdEmpresa" ValueType="System.Int32" TextField="NomeEmpresa"
                                         EnableCallbackMode="true" CallbackPageSize="50" LoadDropDownOnDemand="true" ShowShadow="false" DropDownStyle="DropDown" DataSecurityMode="Strict">
                                         <CaptionSettings Position="Top" ShowColon="false" />
@@ -177,7 +216,7 @@
                                     </dx:ASPxComboBox>
                                 </div>
                                 <div class="col-sm-2 col-md-2 col-lg-2">
-                                    <dx:ASPxComboBox ID="FiltrocboTipo" runat="server" ClientInstanceName="FiltrocboTipo" Width="100%" Caption="Tipo Documento"
+                                    <dx:ASPxComboBox ID="FiltrocboTipo" runat="server" ClientInstanceName="FiltrocboTipo" Width="100%" Caption="Document Type"
                                         DataSourceID="sdsTipoDoc" ValueField="IdTipoDoc" ValueType="System.Int32" TextField="NomeTipoDoc"
                                         ShowShadow="false" DropDownStyle="DropDown" DataSecurityMode="Strict">
                                         <CaptionSettings Position="Top" ShowColon="false" />
@@ -188,7 +227,7 @@
 
                                 <div class="col-sm-2 col-md-2 col-lg-2">
                                     <dx:ASPxGridLookup ID="FiltrolukSitDoc" runat="server" KeyFieldName="IdSituacaoDoc" PopupHorizontalAlign="RightSides" AutoPostBack="false" DataSourceID="sdsSituacaoDoc" ClientInstanceName="FiltrolukSitDoc"
-                                        SelectionMode="Multiple" Width="100%" TextFormatString="{1}" MultiTextSeparator="/" AutoGenerateColumns="False" Caption="Situação Doc">
+                                        SelectionMode="Multiple" Width="100%" TextFormatString="{1}" MultiTextSeparator="/" AutoGenerateColumns="False" Caption="Status">
                                         <Columns>
                                             <dx:GridViewCommandColumn ShowSelectCheckbox="True" VisibleIndex="0" Width="50px">
                                             </dx:GridViewCommandColumn>
@@ -245,7 +284,7 @@
                             </dx:GridViewCommandColumn>
 
                             <dx:GridViewDataTextColumn FieldName="IdDoc" Caption="Id Doc" VisibleIndex="1" Visible="true">
-                            </dx:GridViewDataTextColumn>                            
+                            </dx:GridViewDataTextColumn>
 
                             <dx:GridViewDataDateColumn FieldName="DataCadastro" Caption="Cadastro" VisibleIndex="2" Width="100px">
                                 <PropertiesDateEdit DisplayFormatString="dd/MM/yyyy"></PropertiesDateEdit>
@@ -353,7 +392,7 @@
                         <div class="col-sm-12 text-center">
 
                             <div class="input-group">
-                                <dx:ASPxLabel ID="ASPxLabel3" Font-Size="16px" runat="server" Text="Mudança de Situação"></dx:ASPxLabel>                                                      
+                                <dx:ASPxLabel ID="ASPxLabel3" Font-Size="16px" runat="server" Text="Mudança de Situação"></dx:ASPxLabel>
                                 <p></p>
                             </div>
 
